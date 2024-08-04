@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', path='/styles/style.css') }}">
+    <title>TapTapCoin</title>
+</head>
+<body>
+    <main>
+        <h1>TapTapCoin</h1>
+        <div class="balance-container">
+            <span class="balance" value="1">ID:</span>
+            <input type="text", id="id-input">
+        </div>
+        <div class="balance-container">
+            <span class="balance" id="balance-count" ></span>
+            <span class="balance">coins</span>
+        </div>
+        <button id="tap-button">Tap me</button>
+        <button id="upgrade-button">Buy upgrade</button>
+
+    </main>
+</body>
+<script src="{{url_for('static', path='/scripts/script.js') }}"></script>
+</html>
+

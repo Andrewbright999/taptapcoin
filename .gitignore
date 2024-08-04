@@ -1,0 +1,8 @@
+.venv/
+users/*.json
+__pycache__/
+sqlitedb.py
+multiplier.py
+database.db
+balance.txt
+balance.json
